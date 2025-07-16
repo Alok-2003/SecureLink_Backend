@@ -1,0 +1,27 @@
+{
+  "name": "razorpay-backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "body-parser": "^2.2.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.7",
+    "express": "^5.1.0",
+    "form-data": "^4.0.2",
+    "nodemailer": "^7.0.3",
+    "razorpay": "^2.9.6"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
