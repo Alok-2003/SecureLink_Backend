@@ -13,7 +13,8 @@ const app = express();
 const corsOptions = {
   origin: [
     'http://localhost:5173',
-    'https://secure-link-canara.vercel.app/',
+    'https://secure-link-canara.vercel.app',
+    'https://secure-link-canara.vercel.app/shopping',
   ],
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type'],
